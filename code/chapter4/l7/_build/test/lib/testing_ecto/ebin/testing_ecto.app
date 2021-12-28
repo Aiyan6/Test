@@ -1,0 +1,9 @@
+{application,testing_ecto,
+             [{applications,[kernel,stdlib,elixir,logger,ecto,faker]},
+              {description,"testing_ecto"},
+              {modules,['Elixir.TestingEcto','Elixir.TestingEcto.Application',
+                        'Elixir.TestingEcto.SchemaCase',
+                        'Elixir.TestingEcto.Schemas.UserBasicSchema']},
+              {registered,[]},
+              {vsn,"0.1.0"},
+              {mod,{'Elixir.TestingEcto.Application',[]}}]}.
