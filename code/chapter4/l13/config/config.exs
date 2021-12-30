@@ -4,8 +4,8 @@ config :testing_ecto,
   ecto_repos: [TestingEcto.Repo]
 
 config :testing_ecto, TestingEcto.Repo,
-  username: "testing_ecto",
-  password: "testing_ecto_password",
+  username: "postgres",
+  password: "postgres",
   database: "testing_ecto_dev",
   hostname: "localhost",
   pool_size: 10,
